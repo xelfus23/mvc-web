@@ -1,0 +1,59 @@
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+@media (min-aspect-ratio:16/9){
+    .valo-bg{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .valo-bg{
+        width: auto;
+        height: 100%;
+    }
+}
+.valo-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.section-1{
+    height: 70vh;
+    padding: 0;
+}
+.bg-valo-red{
+    background-color: #f44336;
+}
+.button{
+    background-color: #f44336;
+    border-radius: 0 0px 5px 5px;
+    color: white;
+    text-decoration: none;
+}
+.move-up-hover{
+    transition: 0.3s;
+    height: 100px;
+}
+.move-up-hover:hover{
+    transform: translateY(-10px);
+}
+.bg-game-box{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.box-center{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.font-50px{
+    font-size: 50px;
+}
